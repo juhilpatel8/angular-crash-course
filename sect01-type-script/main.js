@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var LikeButton_1 = require("./LikeButton");
+var likeButton = new LikeButton_1["default"](5);
+console.log(likeButton.likes);
+console.log(likeButton.selected);
+likeButton.toggleLike();
+console.log(likeButton.likes);
+console.log(likeButton.selected);
+likeButton.toggleLike();
+console.log(likeButton.likes);
+console.log(likeButton.selected);
