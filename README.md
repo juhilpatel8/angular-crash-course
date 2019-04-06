@@ -10,6 +10,8 @@ The exercises of the Udemy-course by Mosh Hamedani.
 
 - Start the local installation: `ng serve`
 
+- Create a service with name "email": `ng g s email`
+
 ## Section 02 - TypeScript Fundamentals
 
 Implement a Facebook Like-button. 
@@ -21,3 +23,9 @@ Use a TypeScript class which encapsulates the data and responds to the user acti
 The initial number of likes becomes passed to the constructor of the class. 
 
 Define the Like-button class in a separate module and use it within a main module.
+
+## Section 03 - Angular Fundamentals
+
+Create a page which displays a list of authors.
+
+

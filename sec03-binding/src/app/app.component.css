@@ -1,0 +1,5 @@
+.input-control label {
+    display: inline-block;
+    padding-right: 2rem;
+    color: red;
+}
