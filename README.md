@@ -7,6 +7,7 @@ The exercises of the Udemy-course by Mosh Hamedani.
 - Create a project named "sec00-playground": `ng new sec00-playground`
 
 - Create a component named "course": `ng g c course`
+Example without abbreviations: `ng generate component components/Todos`
 
 - Start the local installation: `ng serve`
 
