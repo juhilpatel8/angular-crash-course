@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="wrap">
+  <div style="text-align:center">
+    <h1>
+      {{ title }}!
+    </h1>
+    <p *ngIf="!isHobbiesListComplete"><b>Hobby deleted</b></p>
+    <p [ngStyle]="{ backgroundColor: this.hobbies.length > 3 ? 'yellow' : 'pink' }">Hobbies: {{ hobbies.length }}</p>
+    <div>
+      <input type="text" id="newHobbyInput" (keyup)="onKeyUp($event)" />
+      <button id="insertNewHobby" (click)="onClickInsertNewHobby()">Insert new hobby</button>
+    </div>
+  </div>
+  <ul>
+    <app-list-item *ngFor="let hobby of hobbies; index as i"
+                    [hobbyTitle]="hobby"
+                    (hobbyItemClicked)="onClickHobby($event)"
+                    [i]="i + 1"></app-list-item>
+  </ul>
+</div>
+
+

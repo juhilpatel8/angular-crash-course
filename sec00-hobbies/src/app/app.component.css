@@ -1,0 +1,17 @@
+#wrap {
+    margin: 1rem auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+p, li {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+}
