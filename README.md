@@ -1,6 +1,6 @@
 # Angular Crash Course for Busy Developers
 
-The exercises of the Udemy-course [https://www.udemy.com/angular-crash-course]('Angular Crash Course for Busy Developers') by Mosh Hamedani.
+The exercises of the Udemy-course [https://www.udemy.com/angular-crash-course](Angular Crash Course for Busy Developers) by Mosh Hamedani.
 
 ## Terminal Commands
 
