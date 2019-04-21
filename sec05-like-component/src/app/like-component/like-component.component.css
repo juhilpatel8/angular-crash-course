@@ -1,0 +1,24 @@
+.fa-heart, #counter {
+    font-size: 5rem;
+}
+
+div {
+    margin: 4rem 2rem;
+    font-family: Tahoma, Verdana, Geneva, sans-serif
+}
+
+#counter {
+    display: inline-block;
+    margin-left: 2rem;
+    width: 50%;
+    max-width: 4rem;
+}
+
+.fa-heart {
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.fa-heart:hover {
+    cursor: pointer;
+}

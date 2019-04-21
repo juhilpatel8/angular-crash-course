@@ -1,6 +1,6 @@
 # Angular Crash Course for Busy Developers
 
-The exercises of the Udemy-course by Mosh Hamedani.
+The exercises of the Udemy-course [https://www.udemy.com/angular-crash-course/]('Angular Crash Course for Busy Developers') by Mosh Hamedani.
 
 ## Terminal Commands
 
@@ -28,5 +28,15 @@ Define the Like-button class in a separate module and use it within a main modul
 ## Section 03 - Angular Fundamentals
 
 Create a page which displays a list of authors.
+
+## Section 04 - Displaying Data and Handling Events
+
+- Favorite Component: Create an interactive favorite-icon for a social-media website.
+
+- Title Casing
+
+## Section 05 - Building Reusable Components
+
+- Like Component: Create a like-button for a community website.
 
 
