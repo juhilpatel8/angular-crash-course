@@ -1,0 +1,11 @@
+<div class="container">
+  <nav>
+      <div>{{ title }}</div>
+      <div><a href="#" (click)="onClickButton()">{{ buttonCaption }}</a></div>
+  </nav>
+  <main *ngIf="isExpanded">
+    <div class="content">
+      Text 123 ...
+    </div>
+  </main>
+</div>
