@@ -1,11 +1,16 @@
 <div class="container">
   <nav>
       <div>{{ title }}</div>
-      <div><a href="#" (click)="onClickButton()">{{ buttonCaption }}</a></div>
+      <div>
+        <a href="#" 
+          (click)="onClickButton()">
+            <i class="fas" [ngClass]="(isExpanded) ? 'fa-angle-up' : 'fa-angle-down'"></i>
+        </a>
+      </div>
   </nav>
   <main *ngIf="isExpanded">
     <div class="content">
-      Text 123 ...
+      <ng-content></ng-content>
     </div>
   </main>
 </div>
