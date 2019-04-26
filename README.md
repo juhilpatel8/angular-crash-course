@@ -39,4 +39,12 @@ Create a page which displays a list of authors.
 
 - Like Component: Create a like-button for a community website.
 
+## Section 06 - Directives
+
+- Create an accordion-component.
+
+## Section 07 - Template-Driven Forms
+
+- Make a Bootstrap form with data-validation.
+
 

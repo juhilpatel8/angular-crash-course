@@ -20,18 +20,18 @@ nav {
 .container a {
     text-decoration: none;
     padding: 0.4rem 0.6rem;
-    border: 1px solid;
-    border-radius: 16px;
-    width: 125px;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #555;
 }
 
+.container a:hover {
+    cursor: pointer;
+}
+
 main {
-    padding: 2rem 0.6rem;
+    padding: 0.25rem 1rem;
     margin-top: 3rem;
     background-color: #eee;
     border-radius: 6px;
+    font-size: 1.4rem;
 }

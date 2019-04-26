@@ -1,0 +1,43 @@
+<form #f="ngForm">
+  <div class="form-group" >
+    <label for="exampleInputEmail1">Course Name</label>
+    <input type="text"
+          class="form-control" 
+          required
+          minlength="3"
+          [(ngModel)]="user.name"
+          name="username"
+          #name="ngModel"
+          id="username"
+          placeholder="Enter email" />
+    <div *ngIf="name.invalid && (name.dirty || name.touched)">
+      <div class="alert alert-danger" *ngIf="name.hasError('required')">User Name is required!</div>
+      <div class="alert alert-danger" *ngIf="name.hasError('minlength')">User Name has to be at least 3 characters.</div>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="form-check-label" for="category">Category</label>
+    <select [(ngModel)]="category"
+            name="category" 
+            id="category"
+            required
+            #cat="ngModel"            
+            class="form-control">
+      <option value=""></option>
+      <option *ngFor="let category of categories" [value]="category.id">{{ category.title }}</option>
+    </select>
+    <div *ngIf="cat.invalid && (cat.dirty || cat.touched)">
+      <div class="alert alert-danger" *ngIf="cat.hasError('required')">Category is required!</div>
+    </div>
+  </div>
+
+  <div class="form-check form-group">
+    <input type="checkbox" class="form-check-input" id="moneyBack" ngModel name="moneyBack">
+    <label class="form-check-label" for="exampleCheck1">30-day money-back guarantee</label>
+  </div>
+
+  <div>{{ f.value | json }}</div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
