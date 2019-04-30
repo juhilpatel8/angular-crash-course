@@ -53,4 +53,12 @@ Create a page which displays a list of authors.
 
 All fields required. Old password have to match the expected value. New password and confirm password have to match.
 
+## Section 08 - Reactive Forms
 
+- Build a change-password formular with validation.
+
+All fields required. Old password have to match the expected value. New password and confirm password have to match.
+
+## Section 09 - Consuming HTTP Services
+
+- Create a GitHub-Follower page.

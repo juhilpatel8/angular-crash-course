@@ -1,0 +1,16 @@
+<div class="wrap">
+  <h2>My GitHub-Follower</h2>
+  <ul class="list-group">
+    <li *ngFor="let follower of followers" class="list-group-item">
+      <div class="left-div">
+        <img src="{{ follower.avatar_url }}" alt="avatar image" />
+      </div>
+      <div>
+        <h3>{{ follower.login }}</h3>
+        <p><a href="{{ follower.html_url }}">{{ follower.html_url }}</a></p>
+      </div>
+      
+    </li>
+  </ul>
+</div>
+
