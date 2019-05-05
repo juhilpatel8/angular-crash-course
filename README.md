@@ -37,31 +37,31 @@ Create a page which displays a list of authors.
 
 ## Section 05 - Building Reusable Components
 
-- Like Component: Create a like-button for a community website.
+Social Media Like-Component: Create a like-button for a community website.
 
 ## Section 06 - Directives
 
-- Create an accordion-component.
+Create an accordion-component.
 
 ## Section 07 - Template-Driven Forms
 
-- Make a Bootstrap form with data-validation.
+Make a Bootstrap form with data-validation.
 
 ## Section 08 - Reactive Forms
 
-- Build a change-password formular with validation.
+Build a change-password formular with validation.
 
 All fields required. Old password have to match the expected value. New password and confirm password have to match.
 
 ## Section 08 - Reactive Forms
 
-- Build a change-password formular with validation.
+Build a change-password formular with validation.
 
 All fields required. Old password have to match the expected value. New password and confirm password have to match.
 
 ## Section 09 - Consuming HTTP Services
 
-- Create a GitHub-Follower page.
+Create a GitHub-Follower page.
 
 ## Section 10 - Routing and Navigation
 
