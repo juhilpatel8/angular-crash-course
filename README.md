@@ -62,3 +62,7 @@ All fields required. Old password have to match the expected value. New password
 ## Section 09 - Consuming HTTP Services
 
 - Create a GitHub-Follower page.
+
+## Section 10 - Routing and Navigation
+
+Blog Archive Web-Site
